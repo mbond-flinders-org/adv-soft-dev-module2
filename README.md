@@ -17,14 +17,14 @@ Each test class sits in the same package as the class it tests, but under `src/t
 
 ## Activity
 
-1. **Clone** this repository and open the folder in IntelliJ (File > Open, pick the folder with `pom.xml`). If IntelliJ asks, choose *Trust Project* and let it load Maven.
+1. **Make your own copy**: click *Use this template > Create a new repository* and create it under your own GitHub account. **Clone your copy** (not this starter repo) and open the folder in IntelliJ (File > Open, pick the folder with `pom.xml`). If IntelliJ asks, choose *Trust Project* and let it load Maven.
 2. **Run the Calculator tests.** Open `CalculatorTest.java` and click the green arrow next to `class CalculatorTest`. All 3 should pass (green).
 3. **Run all the tests.** Right-click the `src/test/java` folder and choose *Run 'All Tests'*. Two tests in `GradeCalculatorTest` will fail (red).
 4. **Read each failure.** Click a failed test in the Run window and look for:
    - the **expected** and **actual** values
    - the line number in the stack trace that points to the failing assertion
 5. **Fix `GradeCalculator.java`.** Don't touch the test file - the tests describe the correct behaviour. Re-run the failed tests until everything is green.
-6. **Commit and push** your fix with a meaningful commit message, e.g. `Fix HD boundary and reject marks over 100`.
+6. **Commit and push** your fix to your own repository with a meaningful commit message, e.g. `Fix HD boundary and reject marks over 100`.
 
 ## Stretch
 
